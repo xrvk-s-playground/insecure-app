@@ -40,5 +40,5 @@ jobs:
     
     - name: Docker push
       run: |
-        docker tag webgoat/webgoat-8.0 docker.pkg.github.com/bas/webgoat/webgoat-8.0:${{ github.sha }}
-        docker push docker.pkg.github.com/bas/webgoat/webgoat-8.0:${{ github.sha }}
+        docker tag webgoat/webgoat-8.0 docker.pkg.github.com/octodemo/webgoat/webgoat-8.0:${{ github.sha }}
+        docker push docker.pkg.github.com/octodemo/webgoat/webgoat-8.0:${{ github.sha }}

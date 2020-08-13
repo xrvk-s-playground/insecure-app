@@ -2,6 +2,7 @@
 
 DATABASE_PORT=9001
 
+
 checkDatabaseAvailable(){
 
   #for i in $(seq 1 5); do command && s=0 && break || s=$? && sleep 15; done; (exit $s)

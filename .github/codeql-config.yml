@@ -1,0 +1,10 @@
+name: "CodeQL config for Webgoat project"
+
+disable-default-queries: true
+
+queries:
+  - name: Use an external JavaScript QL pack (run queries from an external repo)
+    uses: octo-org/javascript-qlpack@master
+
+paths-ignore:
+  - '*.md'

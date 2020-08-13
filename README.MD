@@ -1,4 +1,4 @@
-# A Deliberately Insecure Java Web Application
+# An Insecure Java Web Application
 
 This is a copy of WebGoat, written in Java/Javscript, built with Maven
 

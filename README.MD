@@ -1,6 +1,6 @@
 # A Deliberately Insecure Java Web Application
 
-This is a copy of WebGoat, written in Java, built with Maven
+This is a copy of WebGoat, written in Java/Javscript, built with Maven
 
 [![Build Status](https://travis-ci.org/WebGoat/WebGoat.svg?branch=develop)](https://travis-ci.org/WebGoat/WebGoat)
 [![Coverage Status](https://coveralls.io/repos/WebGoat/WebGoat/badge.svg?branch=develop&service=github)](https://coveralls.io/github/WebGoat/WebGoat?branch=master)

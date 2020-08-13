@@ -4,10 +4,10 @@ on:
   push:
     paths-ignore: 
       - '*.md'
-      - '.github/**'
+      #- '.github/**'
 
 jobs:
-  analyze:
+  analysis:
     name: Analyze
     runs-on: ubuntu-latest
 

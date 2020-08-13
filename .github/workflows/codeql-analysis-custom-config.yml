@@ -7,8 +7,7 @@ on:
       #- '.github/**'
 
 jobs:
-  analysis:
-    name: Analysis
+  codeql-analysis:
     runs-on: ubuntu-latest
 
     steps:

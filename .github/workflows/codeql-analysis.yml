@@ -2,10 +2,10 @@ name: "Code scanning - action"
 
 on:
   workflow_dispatch:
-  push:
-  pull_request:
-  schedule:
-    - cron: '0 3 * * 4'
+  #push:
+  #pull_request:
+  #schedule:
+    #- cron: '0 3 * * 4'
 
 jobs:
   CodeQL-Build:
@@ -25,7 +25,7 @@ jobs:
     - run: git checkout HEAD^2
       if: ${{ github.event_name == 'pull_request' }}
       
-    # Initializes the CodeQL tools for scanning.
+    # This action initializes CodeQL. CodeQL monitors the build and uses it to generate the queryable data structure of your code
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v1
       # Override language selection by uncommenting this and choosing your languages

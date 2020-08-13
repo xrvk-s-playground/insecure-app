@@ -1,6 +1,6 @@
-# WebGoat 8: A deliberately insecure Web Application
+# WebGoat 8: A deliberately insecure Web Application (Java)
 
-This is a copy of WebGoat.
+This is a copy of WebGoat, written in Java, built with Maven
 
 [![Build Status](https://travis-ci.org/WebGoat/WebGoat.svg?branch=develop)](https://travis-ci.org/WebGoat/WebGoat)
 [![Coverage Status](https://coveralls.io/repos/WebGoat/WebGoat/badge.svg?branch=develop&service=github)](https://coveralls.io/github/WebGoat/WebGoat?branch=master)

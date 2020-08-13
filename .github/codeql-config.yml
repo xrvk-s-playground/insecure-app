@@ -1,10 +1,14 @@
 name: "CodeQL config for Webgoat project"
 
+# Disable query default set
 disable-default-queries: true
 
+# Specifies a set of custom queries to run instead. 
 queries:
   - name: Use an external JavaScript QL pack (run queries from an external repo)
     uses: octo-org/javascript-qlpack@master
 
+# specifies directories to scan, or directories to ignore
 paths-ignore:
   - '*.md'
+  - '.github/**'

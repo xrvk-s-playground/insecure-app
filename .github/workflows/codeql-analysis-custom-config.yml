@@ -1,6 +1,7 @@
 name: "CodeQL"
 
 on:
+  issues:
   push:
     paths-ignore: 
       - '*.MD'

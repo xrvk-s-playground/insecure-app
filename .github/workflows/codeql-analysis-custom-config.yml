@@ -3,7 +3,7 @@ name: "CodeQL"
 on:
   push:
     paths-ignore: 
-      - '*.md'
+      - '*.MD'
       - '.github/**'
 
 jobs:

@@ -5,8 +5,8 @@ disable-default-queries: true
 
 # Specifies a set of custom queries to run instead. 
 queries:
-  - name: Security and Quality
-    uses: security-and-quality
+  #- name: Security and Quality
+  #  uses: security-and-quality
   - name: codeql repo
     uses: github/codeql/java/ql/src/codeql-suites/java-code-scanning.qls@v1.24.0
 

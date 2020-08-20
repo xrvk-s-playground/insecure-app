@@ -9,6 +9,8 @@ queries:
   #  uses: security-and-quality
   - name: codeql repo
     uses: github/codeql/java/ql/src/codeql-suites/java-code-scanning.qls@v1.24.0
+  - name: codeql repo
+    uses: github/codeql/javascript/ql/src/codeql-suites/javascript-lgtm-full.qls
 
 # specifies directories to scan, or directories to ignore
 paths-ignore:

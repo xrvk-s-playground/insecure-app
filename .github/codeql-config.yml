@@ -5,14 +5,14 @@ disable-default-queries: true
 
 # Specifies a set of custom queries to run instead. 
 queries:
+  - name: innersource query
+    uses: get-secure/javascript-query-pack/snippets/argumentsparam.ql@master
   #- name: Security and Quality
   #  uses: security-and-quality
   #- name: codeql repo
   #  uses: github/codeql/java/ql/src/codeql-suites/java-code-scanning.qls@v1.24.0
   #- name: codeql repo
   #  uses: github/codeql/javascript/ql/src/codeql-suites/javascript-code-scanning.qls@v1.24.0
-  - name: innersource query
-    uses: get-secure/javascript-query-pack/snippets/argumentsparam.ql
   
 # specifies directories to scan, or directories to ignore
 paths-ignore:

@@ -13,6 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    
+    # If we're using a private CodeQL Repo - check it out so that we can use it within our custom configuration
+    #- name: Configure Access to private codeql repo
+    #  env:
+    #    TOKEN: ${{ secrets.ORG_ACCESS_TOKEN }}
+    #  run: |
+    #    git config --global url."https://${TOKEN}@github.com/get-secure/javascript-query-pack".insteadOf "https://github.com/get-secure/javascript-query-pack"
+    
     - name: Checkout repository
       uses: actions/checkout@v2
       with:

@@ -5,6 +5,7 @@ disable-default-queries: true
 
 # Specifies a set of custom queries to run instead. 
 queries:
+  # Query defined in repo get-secure/javascript-query-pack
   - name: javascript-query-pack
     uses: get-secure/javascript-query-pack/code-scanning.qls@master
   #- name: innersource query

@@ -37,7 +37,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: javascript
-        config-file: get-secure/javascript-query-pack/javscript-codeql-config.yml
+        config-file: get-secure/javascript-query-pack/javscript-codeql-config.yml@main
       
       # Override language selection by uncommenting this and choosing your languages
       # with:

@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
     # If we're using a private CodeQL Repo - check it out so that we can use it within our custom configuration
     #- name: Configure Access to private codeql repo
     #  env:

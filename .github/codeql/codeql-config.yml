@@ -9,7 +9,7 @@ queries:
   #  uses: security-extended
   #- name: Security and Quality
   #  uses: security-and-quality
-	
+  
 # specifies directories to scan, or directories to ignore
 paths-ignore:
   - '*.md'
